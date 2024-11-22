@@ -1,0 +1,114 @@
+/* Estilo global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4CAF50, #2E8B57); /* Fondo con gradiente verde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Animación suave al enfocar el contenedor */
+.form-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.form-container h2 {
+    color: #2E8B57;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Input group */
+.input-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #dcedc8; /* Fondo verde claro */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto de enfoque en los inputs */
+.input-group input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
+    outline: none;
+}
+
+/* Botón de enviar */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Botón al pasar el cursor */
+button:hover {
+    background-color: #388E3C;
+    transform: translateY(-2px);
+}
+
+/* Enlace de registro */
+.register-link {
+    display: block;
+    margin-top: 25px;
+    color: #388E3C;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.register-link:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Mensaje de error */
+.error {
+    color: #990000;
+    background-color: #ffcccc;
+    border: 1px solid #ff4d4d;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}

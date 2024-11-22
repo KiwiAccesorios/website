@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav .menu {
+    margin-top: 20px;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav .menu a:hover {
+    text-decoration: underline;
+}
+
+#banner {
+    background-color: #4CAF50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+#banner p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#productos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#productos h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h4 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.producto p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.producto .precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.boton-comprar {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
